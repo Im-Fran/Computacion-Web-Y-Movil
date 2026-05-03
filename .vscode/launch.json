@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Computacion-Web-y-Movil}",
+            "name": "Debug ComputacionWebYMovil",
+            "target": "ComputacionWebYMovil",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug ComputacionWebYMovil"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Computacion-Web-y-Movil}",
+            "name": "Release ComputacionWebYMovil",
+            "target": "ComputacionWebYMovil",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release ComputacionWebYMovil"
+        }
+    ]
+}
